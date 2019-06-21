@@ -55,6 +55,14 @@ export default {
   transition: margin-left 0.28s;
   margin-left: 210px;
   position: relative;
+  background-color: #ffffff;
+}
+
+.dashboard-container {
+  min-height: calc(100vh - 50px);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 </style>
 
